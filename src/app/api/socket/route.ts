@@ -38,5 +38,8 @@ export const config = {
     bodyParser: false,
     // Enable streaming
     externalResolver: true,
+
+
+    
   },
 };
