@@ -23,6 +23,7 @@ wsServer.on('connection', (socket: any) => {
     socket.close();
   });
 
+  
   socket.on('close', () => {
     console.log('Client disconnected');
     audioStream.destroy();
