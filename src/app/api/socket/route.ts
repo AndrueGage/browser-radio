@@ -5,6 +5,7 @@ import path from 'path';
 
 const audioFilePath = path.join(process.cwd(), 'public', 'minecraft-audio.mp3'); // Adjust the path to your audio file
 
+
 const wsServer = new Server({ noServer: true });
 
 wsServer.on('connection', (socket: any) => {
